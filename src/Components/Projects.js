@@ -14,8 +14,8 @@ const Projects = () => {
 
         <div class="card__back">
           <p class="card__body">{p.desc}<br/><br/>
-          <a href={p.link} target='_blank'>Visit Website <HiOutlineExternalLink/></a>
-          <a href={p.github} target='_blank'>See Code <AiFillGithub/></a>
+          <a href={p.link} target='_blank' rel="noreferrer">Visit Website <HiOutlineExternalLink/></a>
+          <a href={p.github} target='_blank' rel="noreferrer">See Code <AiFillGithub/></a>
           </p>
           
         </div>

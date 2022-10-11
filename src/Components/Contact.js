@@ -2,8 +2,7 @@ import React, { useState } from 'react'
 import { FaUserAlt } from 'react-icons/fa'
 import { MdEmail, MdAlternateEmail } from 'react-icons/md'
 import emailjs from 'emailjs-com';
-import details from '../Email';
-import { AiFillGithub, AiFillLinkedin, AiFillInstagram } from 'react-icons/ai'
+import { AiFillGithub, AiFillLinkedin} from 'react-icons/ai'
 const Contact = () => {
     const [name, setName] = useState('')
     const [email, setEmail] = useState('')
@@ -37,8 +36,8 @@ const Contact = () => {
             </div>
             <h2 align="center">You can also directly email me on rahulpalahwat@gmail.com. Following are my social links.</h2>
             <div className='social-links'>
-                <a href="https://www.linkedin.com/in/rahul-kumar-1482041a0/" target='_blank'><AiFillLinkedin /></a>
-                <a href="https://github.com/Rahul-Palahwat" target='_blank'><AiFillGithub /></a>
+                <a href="https://www.linkedin.com/in/rahul-kumar-1482041a0/" target='_blank' rel="noreferrer"><AiFillLinkedin /></a>
+                <a href="https://github.com/Rahul-Palahwat" target='_blank' rel="noreferrer"><AiFillGithub /></a>
                 {/* <a href="https://www.instagram.com/tarsh333/" target='_blank'><AiFillInstagram /></a> */}
             </div>
         </div>
